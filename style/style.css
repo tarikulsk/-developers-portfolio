@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* header and navigation style */
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+}
+
+.nav-title {
+    font-weight: 800;
+    font-size: 45px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+}
+
+ul li {
+    margin-left: 20px;
+}
+
+.btn-prm {
+    border: none;
+    background-color: orangered;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 15px;
+
+}
